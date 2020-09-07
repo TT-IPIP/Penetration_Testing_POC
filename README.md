@@ -180,6 +180,9 @@
 - [74CMS_v5.0.1后台RCE分析](./books/74CMS_v5.0.1后台RCE分析.pdf)
 - [CVE-2020-8163 - Remote code execution of user-provided local names in Rails](https://github.com/sh286/CVE-2020-8163)
 - [【0day RCE】Horde Groupware Webmail Edition RCE](./%E3%80%900day%20RCE%E3%80%91Horde%20Groupware%20Webmail%20Edition%20RCE.md)
+- [pulse-gosecure-rce-Tool to test for existence of CVE-2020-8218](https://github.com/withdk/pulse-gosecure-rce-poc)
+- [Exploit for Pulse Connect Secure SSL VPN arbitrary file read vulnerability (CVE-2019-11510)](https://github.com/BishopFox/pwn-pulse)
+- [Zblog默认Theme_csrf+储存xss+getshell](./Zblog默认Theme_csrf+储存xss+getshell.md)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -302,7 +305,7 @@
 - [内网常见渗透工具包](https://github.com/yuxiaokui/Intranet-Penetration)
 - [从内存中加载 SHELLCODE bypass AV查杀](https://github.com/brimstone/go-shellcode)|[twitter示例](https://twitter.com/jas502n/status/1213847002947051521)
 - [流量转发工具-pingtunnel是把tcp/udp/sock5流量伪装成icmp流量进行转发的工具](https://github.com/esrrhs/pingtunnel)
-- [内网渗透-创建Windows用户(当net net1 等常见命令被过滤时,一个文件执行直接添加一个管理员【需要shell具有管理员权限l】](https://github.com/newsoft/adduser)|[adduser使用方法](./adduser添加用户.md) 
+- [内网渗透-创建Windows用户(当net net1 等常见命令被过滤时,一个文件执行直接添加一个管理员【需要shell具有管理员权限l】](https://github.com/newsoft/adduser)|[adduser使用方法](./adduser添加用户.md) |[【windows】绕过杀软添加管理员用户的两种方法](https://github.com/lengjibo/RedTeamTools/tree/master/windows/bypass360%E5%8A%A0%E7%94%A8%E6%88%B7)|[【windows】使用vbs脚本添加管理员用户](./使用vbs脚本添加管理员用户.md)
 - [pypykatz-通过python3实现完整的Mimikatz功能(python3.6+)](https://github.com/skelsec/pypykatz)
 - [【windows】Bypassing AV via in-memory PE execution-通过在内存中加载多次XOR后的payload来bypass杀软](https://blog.dylan.codes/bypassing-av-via/)|[作者自建gitlab地址](https://git.dylan.codes/batman/darkarmour)
 - [wafw00f-帮助你快速识别web应用是否使用何种WAF(扫描之前很有用)](https://github.com/EnableSecurity/wafw00f)
@@ -313,11 +316,12 @@
 - [一款lcx在golang下的实现-适合内网代理流量到公网,比如阿里云的机器代理到你的公网机器](https://github.com/cw1997/NATBypass)
 - [Cobalt Strike Aggressor 插件包](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)
 - [Erebus-Cobalt Strike后渗透测试插件,包括了信息收集、权限获取、密码获取、痕迹清除等等常见的脚本插件](https://github.com/DeEpinGh0st/Erebus)
+- [cobaltstrike后渗透插件，偏向内网常用工具（目前包含1.定位域管理员2.信息收集(采用ADfind)3.权限维持(增加了万能密码,以及白银票据)4.内网扫描(nbtscan(linux/windows通用))5.dump数据库hash(支持mysql/mssql(快速获取数据库的hash值))）](https://github.com/wafinfo/cobaltstrike)
 - [IP/IP段资产扫描-->扫描开放端口识别运行服务部署网站-->自动化整理扫描结果-->输出可视化报表+整理结果](https://github.com/LangziFun/LangNetworkTopology3)
 - [A script to scan for unsecured Laravel .env files](https://github.com/tismayil/laravelN00b)
 - [Struts2漏洞扫描Golang版-【特点:单文件、全平台支持、可在webshell下使用】](https://github.com/x51/STS2G)
 - [Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)
-- [完整weblogic 漏洞扫描工具修复版](https://github.com/0xn0ne/weblogicScanner)
+- [weblogicScanner-完整weblogic 漏洞扫描工具修复版](https://github.com/0xn0ne/weblogicScanner)
 - [GitHub敏感信息泄露监控](https://github.com/FeeiCN/GSIL)
 - [Java安全相关的漏洞和技术demo](https://github.com/threedr3am/learnjavabug)
 - [在线扫描-网站基础信息获取|旁站|端口扫描|信息泄露](https://scan.top15.cn/web/)
@@ -429,7 +433,7 @@
 - [WMIHACKER-仅135端口免杀横向移动](https://github.com/360-Linton-Lab/WMIHACKER)|[使用方法以及介绍](./books/WMIHACKER（仅135端口免杀横向移动）.pdf)|[横向移动工具WMIHACKER](./books/横向移动工具WMIHACKER.pdf)|[原文链接](https://www.anquanke.com/post/id/209665)
 - [cloud-ranges-部分公有云IP地址范围](https://github.com/pry0cc/cloud-ranges)
 - [sqltools_ch-sqltools2.0汉化增强版](./ttools/sqltools_ch.rar)
-- [railgun-poc_1.0.1.7-多功能端口扫描/爆破/漏洞利用/编码转换等](./tools/railgun-poc_1.0.1.7.zip)
+- [railgun-poc_1.0.1.7-多功能端口扫描/爆破/漏洞利用/编码转换等](./tools/railgun-poc_1.0.1.7.zip)|[railgun作者更新到GitHub了，目前是1.2.8版本](https://github.com/lz520520/railgun)｜[railgun-v1.2.8.zip-存档](./tools/railgun.zip)
 - [dede_funcookie.php-DEDECMS伪随机漏洞分析 (三) 碰撞点(爆破，伪造管理员cookie登陆后台getshell](./tools/dede_funcookie.php)
 - [WAScan-一款功能强大的Web应用程序扫描工具【基于python开发的命令行扫描器】](https://github.com/m4ll0k/WAScan)
 - [Peinject_dll-CS插件之另类持久化方法-PE感染](https://github.com/m0ngo0se/Peinject_dll)
@@ -458,11 +462,26 @@
 - [【内网探测】SharpNetCheck-批量检测机器是否有出网权限，可在dnslog中回显内网ip地址和计算机名，可实现内网中的快速定位可出网机器](https://github.com/uknowsec/SharpNetCheck)
 - [fofa搜索增强版-使用fofa的url+cookies即可自动下载所有结果](./tools/fofa搜索增强版.zip)
 - [SharpBlock-A method of bypassing EDR's active projection DLL's by preventing entry point exection](https://github.com/CCob/SharpBlock)|[相关文章](https://www.pentestpartners.com/security-blog/patchless-amsi-bypass-using-sharpblock/)
+- [bypasswaf-云锁数字型注入tamper/安全狗的延时、布尔、union注入绕过tamper](https://github.com/pureqh/bypasswaf)
+- [通达OA 2017 版本SQL注入脚本](./tools/tongda_oa_2017_sql_injection.py)
+- [t14m4t：一款封装了THC-Hydra和Nmap的自动化爆破工具](https://github.com/MS-WEB-BN/t14m4t)
+- [ksubdomain：一款基于无状态子域名爆破工具](https://github.com/knownsec/ksubdomain)
+- [smuggler-一款用python3编写的http请求走私验证测试工具](https://github.com/defparam/smuggler)
+- [Fuzz_dic：又一个类型全面的参数和字典收集项目](https://github.com/SmithEcon/Fuzz_dic)
+- [PentesterSpecialDict-该项目对 [ fuzzDicts | fuzzdb | Dict ] 等其他网上字典开源项目进行整合精简化和去重处理](https://github.com/ppbibo/PentesterSpecialDict)
+- [PowerUpSQL：为攻击SQLServer而设计的具有攻击性的PowerShell脚本](https://github.com/NetSPI/PowerUpSQL)|[利用PowerUpSQL攻击SQL Server实例](./books/%E5%88%A9%E7%94%A8PowerUpSQL%E6%94%BB%E5%87%BBSQL%20Server%E5%AE%9E%E4%BE%8B.pdf)
+- [adbsploit-一个基于Python3和ADB的安卓设备漏洞利用和管理工具](https://github.com/mesquidar/adbsploit)
+- [monsoon-一个用Go语言编写的目录扫描工具，类似于dirsearch](https://github.com/RedTeamPentesting/monsoon)
+- [【Android脱壳】Youpk-又一款基于ART的主动调用的脱壳机](https://github.com/Youlor/Youpk)
+- [【webshell免杀】php免杀D盾webshell生成工具](https://github.com/pureqh/webshell)
+- [Steganographer-一款能够帮助你在图片中隐藏文件或数据的Python隐写工具](https://github.com/priyansh-anand/steganographer)
+- [AV_Evasion_Tool:掩日 - 免杀执行器生成工具](https://github.com/1y0n/AV_Evasion_Tool)
+- [GODNSLOG-河马师傅（河马webshell检测作者）基于go语言开发的一款DNSLOG工具，支持docker一键部署](https://github.com/chennqqi/godnslog)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
 - [windwos权限维持系列12篇PDF](./books/Window权限维持)
-- [Linux 权限维持之进程注入(需要关闭ptrace)](./books/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E4%B9%8B%E8%BF%9B%E7%A8%8B%E6%B3%A8%E5%85%A5%20%C2%AB%20%E5%80%BE%E6%97%8B%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf) | [在不使用ptrace的情况下，将共享库（即任意代码）注入实时Linux进程中。(不需要关闭ptrace)](https://github.com/DavidBuchanan314/dlinject)
+- [Linux 权限维持之进程注入(需要关闭ptrace)](./books/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E4%B9%8B%E8%BF%9B%E7%A8%8B%E6%B3%A8%E5%85%A5%20%C2%AB%20%E5%80%BE%E6%97%8B%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf) | [在不使用ptrace的情况下，将共享库（即任意代码）注入实时Linux进程中。(不需要关闭ptrace)](https://github.com/DavidBuchanan314/dlinject)|[[总结]Linux权限维持](./books/[总结]Linux权限维持.pdf)-[原文地址](https://www.cnblogs.com/-mo-/p/12337766.html)
 - [44139-mysql-udf-exploitation](./books/44139-mysql-udf-exploitation.pdf)
 - [emlog CMS的代码审计_越权到后台getshell](./books/emlog%20CMS的代码审计_越权到后台getshell%20-%20先知社区.pdf)
 - [PHPOK 5.3 最新版前台注入](./books/PHPOK%205.3%20最新版前台注入%20-%20先知社区.pdf)
@@ -585,6 +604,23 @@
 - [wordpress 评论插件 wpDiscuz 任意文件上传漏洞分析](./books/wordpress%20%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6%20wpDiscuz%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.pdf)
 - [Gopher协议使用总结](./books/Gopher协议使用总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/SjGvsl3jxOtyg6BtGgFf5A)
 - [sqlmap使用总结](./books/sqlmap使用总结.pdf)|[【实战技巧】sqlmap不为人知的骚操作](./books/%E3%80%90%E5%AE%9E%E6%88%98%E6%8A%80%E5%B7%A7%E3%80%91sqlmap%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E9%AA%9A%E6%93%8D%E4%BD%9C_Summer's_blog.pdf)-[原文地址](https://blog.csdn.net/sun1318578251/article/details/102524100)|[记一份SQLmap 使用手册小结（一）](./books/记一份SQLmap%20使用手册小结（一）.pdf)|[记一份SQLmap 使用手册小结（二）](./books/记一份SQLmap%20使用手册小结（二）.pdf)
+- [mac上Parallels Desktop安装kali linux 2020.2a并安装好Parallels Tools+Google拼音输入法](./books/mac%E4%B8%8AParallels%20Desktop%E5%AE%89%E8%A3%85kali%20linux%202020.2a%E5%B9%B6%E5%AE%89%E8%A3%85%E5%A5%BDParallels%20Tools+Google%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95.docx)
+- [通达OA v11.5 多枚0day漏洞复现](./books/%E9%80%9A%E8%BE%BEOA%20v11.5%20%E5%A4%9A%E6%9E%9A0day%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0.pdf)|[续集 _ 再发通达OA多枚0day](./books/%E7%BB%AD%E9%9B%86%20_%20%E5%86%8D%E5%8F%91%E9%80%9A%E8%BE%BEOA%E5%A4%9A%E6%9E%9A0day.pdf)-[原文地址](https://mp.weixin.qq.com/s/RlOpohHvjHv_Qg3mNgDCAQ)
+- [POSCMS(20200821)_任意 SQL 语句执行（需要登录后台）](./books/POSCMS_%E4%BB%BB%E6%84%8F%20SQL%20%E8%AF%AD%E5%8F%A5%E6%89%A7%E8%A1%8C%EF%BC%88%E9%9C%80%E8%A6%81%E7%99%BB%E5%BD%95%E5%90%8E%E5%8F%B0%EF%BC%89.pdf)-[原文地址](https://www.t00ls.net/thread-57551-1-1.html)|[POSCMS v3.2.0漏洞复现(getshell+前台SQL注入)](./books/POSCMS%20v3.2.0%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0(getshell+%E5%89%8D%E5%8F%B0SQL%E6%B3%A8%E5%85%A5).pdf)-[原文地址](https://xz.aliyun.com/t/4858)
+- [多线程+二分法的巧用——通达OA 2017 SQL盲注](./books/%E5%A4%9A%E7%BA%BF%E7%A8%8B+%E4%BA%8C%E5%88%86%E6%B3%95%E7%9A%84%E5%B7%A7%E7%94%A8%E2%80%94%E2%80%94%E9%80%9A%E8%BE%BEOA%20SQL%E7%9B%B2%E6%B3%A8.pdf)-[原文地址](https://mp.weixin.qq.com/s/zH13q6xBRc58ggHqfKKi_g)
+- [宝塔面板webshell隐藏小技巧](./books/宝塔面板webshell隐藏小技巧.pdf)-[原文地址](https://mp.weixin.qq.com/s/-8JE1ovWKOorNr6MCAgejg)
+- [配合隐写术远程动态加载 shellcode](./books/%E9%85%8D%E5%90%88%E9%9A%90%E5%86%99%E6%9C%AF%E8%BF%9C%E7%A8%8B%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BD%20shellcode.pdf)|[原文地址](https://www.t00ls.net/thread-57618-1-1.html)
+- [MySQL蜜罐获取攻击者微信ID](./books/MySQL蜜罐获取攻击者微信ID.pdf)-[原文地址](https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg)
+- [蓝天采集器 v2.3.1 后台getshell（需要管理员权限）](./books/蓝天采集器%20v2.3.1%20后台getshell（需要管理员权限）.pdf)
+- [实战-从社工客服拿到密码登录后台加SQL注入绕过安全狗写入webshell到提权进内网漫游](./books/实战-从社工客服拿到密码登录后台加SQL注入绕过安全狗写入webshell到提权进内网漫游.pdf)-[原文地址](https://mp.weixin.qq.com/s/JBspfEHTDZBiOXEyI14QKQ)
+- [0day安全_软件漏洞分析技术(第二版)](https://cloud.189.cn/t/7ziI3imqMzI3)
+- [安恒信息《渗透攻击红队百科全书》](https://cloud.189.cn/t/Jzeuuq3YFr2e)
+- [lcx端口转发(详解)](./books/lcx端口转发(详解).pdf)
+-  [php_bugs-PHP代码审计分段讲解](https://github.com/bowu678/php_bugs)
+-  [深信服edr终端检测响应平台（<3.2.21）代码审计挖掘（RCE）](./books/深信服edr终端检测响应平台（<3.2.21）代码审计挖掘（RCE）.pdf)-[原文地址](https://mp.weixin.qq.com/s/3TC7TRAFceBWgj_ANA2etQ)
+-  [深信服edr终端检测响应平台（<3.2.21）代码审计挖掘（权限绕过）](./books/深信服edr终端检测响应平台（<3.2.21）代码审计挖掘（权限绕过）.pdf)-[原文地址](https://mp.weixin.qq.com/s/4Z4QF-Wdq2PhqCkGKB8Q6Q)
+-  [Hook梦幻旅途之Frida](./books/Hook梦幻旅途之Frida.pdf)
+-  [简单的源码免杀过av](./books/简单的源码免杀过av.pdf)
 
 
 ## <span id="head9"> 说明</span>
@@ -593,8 +629,21 @@
 > 1.此项目所有文章、代码部分来源于互联网，版权归原作者所有，转载留存的都会写上原著出处，如有遗漏，还请说明，谢谢！  
 > 2.此项目仅供学习参考使用，严禁用于任何非法行为！使用即代表你同意自负责任！  
 > 3.如果项目中涉及到你的隐私或者需要删除的，请issue留言指名具体文件内容，附上你的证明，或者邮箱联系我，核实后即刻删除。  
+
+<details>  
+<summary>其他杂项</summary>
+
 ### 喜讯
+
 在`2020-08-16`登上`GitHub`的`Trending`日榜，谢谢大家支持，谢谢那些在freebuf和公众号推荐的师傅，我会继续努力，期待有靠谱的师傅一起来维护优化，感兴趣的邮箱联系我吧！
 ![](./img/trending.png)  
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Mr-xn/Penetration_Testing_POC.svg)](https://starchart.cc/Mr-xn/Penetration_Testing_POC)
+
+</details>  
+
 ### 最后，选一个屁股吧！
+
 ![](https://ooo.0o0.ooo/2017/06/13/593fb9335fe9c.jpg)
